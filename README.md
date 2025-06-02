@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Planner de Viagem
 
-Currently, two official plugins are available:
+Plann.er é um projeto desenvolvido durante a 16ª edição do NLW Journey, oferecido pela Rocketseat. Este projeto tem como objetivo ajudar os usuários a organizar suas viagens, sejam elas a trabalho ou lazer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Funcionalidades
 
-- Configure the top-level `parserOptions` property like this:
+- Criação de viagens: O usuário pode criar uma viagem especificando o nome, data de início e data de fim.
+- Planejamento de atividades: Dentro de cada viagem, o usuário pode adicionar atividades para realizar em cada dia.
+- Convite de participantes: Permite convidar outros usuários para participar da viagem.
+- Aceite de convites: Participantes convidados podem aceitar os convites
+- Lista de links importantes: Os usuários podem adicionar links importantes relacionados à viagem.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+## Tecnologias utilizadas
+
+- Marcação semântica HTML5
+- Propriedades personalizadas de CSS3
+- JavaScript
+- Flexbox
+- Design responsivo
+- Api's
+- React.js
+- TypScript
+- Tailwind
+
+
+## Como executar o projeto
+
+#### Rodando a aplicação web (Frontend)
+Clone o projeto
+
+```bash
+  git clone https://github.com/elisaaivarone/planner_viagem.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Entre no diretório do projeto
+
+```bash
+  cd planner_viagem
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev
+```
+
+
+
